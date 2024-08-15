@@ -10,5 +10,7 @@ Here are the things you need to complete to bring this app live:
 6) go back to the DB you created, add a new field (i.e major) to all the documents
 7) update studentSchema inside backend\models\Student.js with this 'new' field
 8) update presentation\src\components\StudentList.js to incorporate this 'new' field
+9) use 'stateful variable' to add a subtitle to display the total student head count
+10) add a toggle button to show/hide the student list. Default: show
 
 Sit back and enjoy your work!

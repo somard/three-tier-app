@@ -18,7 +18,9 @@ const StudentList = () => {
 
     return (
         <div>
-            <h1>Student List</h1>
+            <h1>"XXX_Your_Customized_List"</h1>
+            <h2>"XXX Student Count XXX"</h2>
+            <button onClick={ "XXX A function to show/hide XXX "}> "XXX show/hide text XXX"</button>
             <ul>
                 {students.map(student => (
                     <li key={student._id} className="left-align">{student.name} - {student.gpa} </li>
